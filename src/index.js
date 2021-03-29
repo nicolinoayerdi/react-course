@@ -1,27 +1,45 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'semantic-ui-css/semantic.min.css';
-import faker from "faker";
-import ApprovalCard from "./ApprovalCard";
-import CommentDetail from "./CommentDetail";
+import SeasonDisplay from "./seasons/SeasonDisplay";
+import Spinner from "./Spinner"
 
 
-const App = () => {
-    return (
-        <div className="ui container comments">
-            <ApprovalCard>
-                <CommentDetail author="Sam" time="Today at 5:00 PM" comment="bla as" avatar={faker.image.people()}/>
-            </ApprovalCard>
+class App extends React.Component {
 
-            <ApprovalCard>
-                <CommentDetail author="Jane" time="Today at 9:00 PM" comment="bla qwea aa" avatar={faker.image.people()}/>
-            </ApprovalCard>
+    state = { lat: null, errorMessage: '' };
 
-            <ApprovalCard>
-                <CommentDetail author="Alex" time="Today at 2:00 PM" comment="blasadasda" avatar={faker.image.people()}/>
-            </ApprovalCard>
-        </div>
-    );
-};
+    componentDidMount() {
+        window.navigator.geolocation.getCurrentPosition(
+            position => this.setState({lat: position.coords.latitude}),
+            err => this.setState({errorMessage: err.message})
+        );
+    }
 
-ReactDOM.render(<App/>, document.querySelector('#root'));
+    renderContent() {
+
+        if (this.state.errorMessage && !this.state.lat) {
+            return <div>Error: {this.state.errorMessage}</div>
+        }
+
+        if (!this.state.errorMessage && this.state.lat) {
+            return (
+                <div>
+                    <SeasonDisplay lat={this.state.lat}/>
+                </div>
+            );
+        }
+
+        return <Spinner message="Please wait while we get your location"/>
+    }
+
+    render() {
+        return (
+            <div>
+                { this.renderContent() }
+            </div>
+        )
+    }
+}
+
+ReactDOM.render(<App />, document.querySelector('#root'));
