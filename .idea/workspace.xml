@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d34f3f-4c1f-47d8-8e15-e06d49096d21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a9bcc098a524f9e11118b0f38340aec1e0880b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc844c7b16da602ea5c71f8702e6901ce9be8032" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApprovalCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/ApprovalCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/comments/CommentDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/ApprovalCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comments/ApprovalCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comments/CommentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comments/CommentDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seasons/SeasonDisplay.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seasons/SeasonDisplay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seasons/SeasonDisplay.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/seasons/SeasonDisplay.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +75,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\react\react-course\src\components" />
       <recent name="C:\Projects\react\react-course\src\comments" />
     </key>
   </component>
@@ -80,7 +89,8 @@
       <updated>1616614053040</updated>
       <workItem from="1616614054297" duration="9462000" />
       <workItem from="1616722722680" duration="4000" />
-      <workItem from="1616866326720" duration="9734000" />
+      <workItem from="1616866326720" duration="9888000" />
+      <workItem from="1617286832542" duration="8177000" />
     </task>
     <task id="LOCAL-00001" summary="random commit to check">
       <created>1616866659427</created>
@@ -89,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616866659427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lifecycle methods">
+      <created>1617020178761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617020178761</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,10 +122,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="random commit to check" />
-    <option name="LAST_COMMIT_MESSAGE" value="random commit to check" />
+    <MESSAGE value="lifecycle methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="lifecycle methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616866586178">
@@ -123,9 +142,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="861" y="93" width="582" height="638" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1616708164187" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616614376108">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1617301463323">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/-1080.-370.1080.1880/0.0.1920.1040@0.0.1920.1040" timestamp="1617287714413" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616614376108" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617301463323" />
   </component>
 </project>
